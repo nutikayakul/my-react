@@ -1,0 +1,15 @@
+import logo from './logo.svg';
+import './App.css';
+import Nav from './component/Nav';
+import { useState } from 'react';
+
+function App() {
+  const [cont, setCount] = useState(0)
+  return (
+    <>
+    <Nav />
+    </>
+  );
+}
+
+export default App;
