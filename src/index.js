@@ -11,8 +11,11 @@ import Contact from './component/Contact';
 import 'primereact/resources/primereact.css';
 import 'primereact/resources/themes/lara-light-indigo/theme.css';
 import 'primeicons/primeicons.css';
+import Button from '@mui/material/Button';
+
 
 import './index.css';
+import Register from './component/Register';
 
 const router = createBrowserRouter([{
         path: "/",
@@ -29,6 +32,10 @@ const router = createBrowserRouter([{
     {
         path: "Contact",
         element: < Contact / >
+    },
+    {
+        path: "Register",
+        element: < Register / >
     }
 ])
 

@@ -1,14 +1,13 @@
 import React from "react";
 import Nav from "./Nav";
 import { TabMenu } from "primereact/tabmenu";
-import { PanelMenu } from "primereact/panelmenu";
 
-const items = [
-  { label: "Dashboard", icon: "pi pi-home" },
-  { label: "Transactions", icon: "pi pi-chart-line" },
-  { label: "Products", icon: "pi pi-list" },
-  { label: "Messages", icon: "pi pi-inbox" },
-];
+// const items = [
+//   { label: "Dashboard", icon: "pi pi-home" },
+//   { label: "Transactions", icon: "pi pi-chart-line" },
+//   { label: "Products", icon: "pi pi-list" },
+//   { label: "Messages", icon: "pi pi-inbox" },
+// ];
 
 function Home() {
   return (
@@ -17,9 +16,9 @@ function Home() {
       <div className="card">
         <h1>Home</h1>
         <h2>Holle React</h2>
-        <div className="card">
+        {/* <div className="card">
           <TabMenu model={items} />
-        </div>
+        </div> */}
       </div>
     </>
   );
